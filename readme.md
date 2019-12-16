@@ -25,7 +25,8 @@ Or you can install it with composer: **composer require rd/tag-generator**
 
 Include a reference to the plugin CSS file inside the head section.
 
-```<?= css(['media/plugins/rd/tag-generator/css/rdTags.css']) ?>
+```
+	<?= css(['media/plugins/rd/tag-generator/css/rdTags.css']) ?>
 ```
 
 ### 2.2 Tag Links
@@ -34,19 +35,22 @@ Insert the plugin snippet in your page template.
 
 e.g. for all tags from child pages: 
 
-```<?php 
+```
+<?php 
 	$childPages = $page->children();
 	$tagArray = $childPages->pluck('tags', ',');
 	snippet('rdTags', ['tagCountPages' => $childPages, 'tagArray' => $tagArray]);
-   ?>
+?>
 ```
 
 Alternatively, you can use a field on the same page to define the tag links:
-```$tagArray = $page->tags()->split(',');
+```
+	$tagArray = $page->tags()->split(',');
 ```
 
 Or feed the snippet with a hard-coded array:
-```$tagArray = ['Design', 'Photography', 'Illustration'];
+```
+	$tagArray = ['Design', 'Photography', 'Illustration'];
 ```
 
 ## 3 Options
