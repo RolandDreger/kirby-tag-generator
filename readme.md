@@ -25,9 +25,7 @@ Or you can install it with composer: **composer require rd/tag-generator**
 
 Include a reference to the plugin CSS file inside the head section.
 
-```
 	<?= css(['media/plugins/rd/tag-generator/css/rdTags.css']) ?>
-```
 
 ### 2.2 Tag Links
 
@@ -44,14 +42,14 @@ e.g. for all tags from child pages:
 ```
 
 Alternatively, you can use a field on the same page to define the tag links:
-```
+
 	$tagArray = $page->tags()->split(',');
-```
+
 
 Or feed the snippet with a hard-coded array:
-```
+
 	$tagArray = ['Design', 'Photography', 'Illustration'];
-```
+
 
 ## 3 Options
 You can find these settings in the file **site/plugins/tag-generator/config/config.php**
