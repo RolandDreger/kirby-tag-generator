@@ -1,6 +1,6 @@
 # Kirby Tag Generator (Version 1.0)
 
-Kirby 3 plugin for generate tag links and filter a collection by tag parameter in URL. 
+Kirby 3 plugin for generating tag links. 
 
 
 ## Preview (on Vimeo)
