@@ -7,6 +7,12 @@ Kirby 3 plugin for generate tag links and filter a collection by tag parameter i
 
 [![Vimeo video to Kirby Plugin Tag generator](https://user-images.githubusercontent.com/19747449/70947215-f6ea9100-2058-11ea-90f8-aaaabe3fe8a1.jpg)](https://vimeo.com/379766254)
 
+»Tag Generator« is a simple plug-in for tags in Kirby 3:
+
++ Multiple Selection
++ Combination (OR, AND, NOT)
++ Sorting
++ Counting
 
 ---
 
