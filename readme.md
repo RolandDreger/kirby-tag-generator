@@ -50,6 +50,10 @@ Or feed the snippet with a hard-coded array:
 
 	$tagArray = ['Design', 'Photography', 'Illustration'];
 
+### 2.3 Page Collection Filter
+Filter the page collection in your page template. Available filter methods for the combination of tags: 'OR', 'AND' or 'NOT' 
+
+	<?php $childPages = $childPages->filterBy('tags','paramTags','OR'); ?>
 
 ## 3 Options
 You can find these settings in the file **site/plugins/tag-generator/config/config.php**
